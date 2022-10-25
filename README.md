@@ -1,11 +1,15 @@
-# TypeRighter
-
-Change the data types of variables so the code will run without errors. 
+# Choose Your Story
 
 ## Instructions
 
-Five variables have been created, but they’re declared as Object types, so the lines of code assigning values to them are causing errors!
+* Create a simple Excel workbook and VBA macro in which a user is provided a single button to click. Based on the number they provide in a text box above, a different message box will appear.
 
-For each variable, change the data type in its Dim statement so that the code will run without errors.
+  * If the user enters a value of 1, display: “You choose to enter the wooded forest of doom!”
 
-**Hint:** A list of VBA data types can be found in the [official documentation](https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary)
+  * If the user enters a value of 2, display: “You choose to enter the fiery volcano of doom!”
+
+  * If the user enters a value of 3, display: “You choose to enter the terrifying jungle of doom!”
+
+  * If the user enters a value of 4, display a similar custom message.
+
+  * If the user enters anything else, display: “Try following directions”
